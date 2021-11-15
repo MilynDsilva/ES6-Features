@@ -3,7 +3,7 @@
 //false , 0 , -0 , 0n (bigint zero) , " " , '', ` `, null , undefined , NaN
 
 function TruthyOrFalsy(Val) {
-    return Val ? "truthy" : "falsy"; 
+    return Val ? "truthy" : "falsy"; //conditional ternary operator
 }
 let Input = 1;
 console.log(TruthyOrFalsy(Input));
