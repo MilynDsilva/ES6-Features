@@ -7,6 +7,3 @@ function TruthyOrFalsy(Val) {
 }
 let Input = 1;
 console.log(TruthyOrFalsy(Input));
-
-
-
