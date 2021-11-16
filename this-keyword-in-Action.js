@@ -30,3 +30,6 @@ function newFun() {
 user.f=newFun;
 user.f();
 administrator.f();
+
+
+//------------------------------------------------------------//
