@@ -32,3 +32,29 @@ function sumAll() {
 //If a function is called with too many arguments (more than declared), these arguments can be reached using the arguments object.
 
 //------------------------------------------------------------//
+
+function getInfo (name, year, color) {
+    console.log(arguments);
+    /*
+    [object Arguments] {
+      0: "Frankie",
+      1: 1987,
+      2: "Red"
+    }
+    */
+    
+    name = 'Jimmie';
+    year = 1995;
+    color = 'Orange';
+  
+    console.log(arguments);
+    /*
+    [object Arguments] {
+      0: "Jimmie",
+      1: 1995,
+      2: "Orange"
+    }
+    */
+  }
+  
+  getInfo('Frankie', 1987, 'Red');
