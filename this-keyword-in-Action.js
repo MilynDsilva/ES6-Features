@@ -28,6 +28,7 @@ function newFun() {
     console.log('Hello there'+this.name1);
 }
 user.f=newFun;
+administrator.f=newFun;
 user.f();
 administrator.f();
 

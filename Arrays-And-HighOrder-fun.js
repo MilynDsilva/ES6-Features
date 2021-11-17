@@ -25,6 +25,7 @@ const randomNumbers = [4, 11, 42, 14, 39];
 const filteredArray = randomNumbers.filter(n => {  
   return n > 5;
 });
+console.log(filteredArray); 
 
 //for each The .forEach() method executes a callback function on each of the elements in an array in order.
 

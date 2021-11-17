@@ -13,7 +13,11 @@ function sayBoo() {
 //   Here setTimeout is looking for the first argument to provide a ‘thing to do when you are ready’. If we call sayBoo() rather than referencing it, what we are actually providing for setTimeout to do is whatever sayBoo() returns — in this case, nothing it can execute. If sayBoo() returned a function, then that function would be available to setTimeout.
 
 
+function sayBoo() {
+  console.log('Baaoo!');
+}
 
+setTimeout(sayBoo, 3000);
 
 //----------------------------------------//
 

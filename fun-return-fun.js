@@ -1,23 +1,23 @@
 function a() {
-    alert('A');
+    console.log('A');
   }
-  //alerts 'A', returns undefined
+  //console.logs 'A', returns undefined
   
   function b() {
-    alert('B');
+    console.log('B');
     return a;
   }
-  //alerts 'B', returns function a
+  //console.logs 'B', returns function a
   
   function c() {
-    alert('C');
+    console.log('C');
     return a();
   }
   //alerts 'C', alerts 'A', returns undefined
   
-  alert("Function 'a' returns " + a());
-  alert("Function 'b' returns " + b());
-  alert("Function 'c' returns " + c());
+  console.log("Function 'a' returns " + a());
+  console.log("Function 'b' returns " + b());
+  console.log("Function 'c' returns " + c());
 
   //When you return b, it is just a reference to function b, but not being executed at this time.
 
