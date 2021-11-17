@@ -9,7 +9,7 @@ const myfun = function (one) {
     }
 }
 
-myfun(1,0,3);
+myfun(1,2,3);
 //console.log(arguments[1]);
 
 
