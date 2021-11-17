@@ -10,80 +10,22 @@ const weekMaps=[
 
 let weeks=["mon","tue","fri"];
 
-//let new_week = weekMaps[i].day.includes(weeks[i]);
-
-
-// const totval = function (){
-//     for(let i=0;i<=weekMaps.length;i++)
-
-//         for(i=0;i<=weeks.length;i++)
-//             if (weekMaps[i].day==weeks[i])
-                
-//                 console.log(weekMaps[i].day,weeks[i]);
-//             else
-                
-//                 console.log(weekMaps[i].day,weeks[i]);
-// }
-
-const totval1 = function (){
-    let j=1;
-    for(let j=1;j<weekMaps.length;j++)
-        console.log(weekMaps[j].day);
-        let i = 0;
-        if(weekMaps[j].day === weeks[i])
-            {
-                console.log(weeks.value);
-            }
-        else 
-            console.log(weeks+'hi');
-        
-
-
+const new_week = (days) => {
+    days.weeks=weeks.includes(days.day);
+    return weekMaps;
 }
 
-console.log(totval1());
+const sum1 = (sum,days) => sum+days.value;
 
+const totalvalue = weekMaps.filter(new_week);
 
+//console.log(totalvalue)
 
+const finalop = weekMaps.reduce(new_week);
 
+console.log(finalop);
 
+//const finalop = totalvalue.reduce(sum1);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const totval = function (){
-//     for(j=0;i<=weekMaps.length;j++)
-
-//         for(i=0;i<=weekMaps.length;i++)
-//             if (weekMaps[j].day==weeks[i])
-                
-//                 console.log(weekMaps[j].day,weeks[i]);
-//             else
-                
-//                 console.log(weekMaps[j].day,weeks[i]);
-// }
-
-
-
-// let new_week = function myFun(weeks) {
-//     return weekMaps.filter((weeks)=>{
-//         return weekMaps.indexOf(weeks) === -1;
-//     });
-// };
-
-//console.log(weekMaps[i].day,weeks[i]);
-
-
+// const finalop1 = weekMaps.reduce(sum1);
+// console.log(finalop);
