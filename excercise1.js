@@ -10,20 +10,50 @@ const weekMaps=[
 
 let weeks=["mon","tue","fri"];
 
-const new_week = (days) => {
-    days.weeks=weeks.includes(days.day);
-    return weekMaps;
-}
 
-const sum1 = (sum,days) => sum+days.value;
 
-const totalvalue = weekMaps.filter(new_week);
 
-//console.log(totalvalue)
 
-const finalop = weekMaps.reduce(new_week);
 
-console.log(finalop);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const new_week = (days) => {
+//     days.weeks=weeks.includes(days.day);
+//     return weekMaps;
+// }
+
+// const sum1 = (sum,days) => sum+days.value;
+
+// const totalvalue = weekMaps.filter(new_week);
+
+// //console.log(totalvalue)
+
+// const finalop = weekMaps.reduce(new_week);
+
+// console.log(finalop);
 
 //const finalop = totalvalue.reduce(sum1);
 
